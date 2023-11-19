@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Random dog liker</title>
+  </head>
+
+  <body>
+    <div class="cont">
+      <div>
+        <h1>Random dogs from the Dog API</h1>
+      </div>
+      <p>
+        You can like or dislike dogs by clicking the buttons. Your choices will
+        be saved. If some pictures are missing, that means they unfortunately
+        have been deleted.
+      </p>
+      <!-- The Modal -->
+      <div id="modalBigpic" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modalinsidecontBigpic"></div>
+          <p>
+            You can like or dislike dogs here on this page. Close the window to
+            like or dislike this picture.
+          </p>
+        </div>
+      </div>
+      <div class="smlimg" id="images"></div>
+      <div class="thebuttons">
+        <button class="btn" id="love" onclick="loveF()">Love it!</button>
+        <button class="btn" id="hate" onclick="hateF()">Not so much</button>
+      </div>
+      <div class="thebuttons">
+        <button class="svdb" id="showCollection" onclick="showCollection()">
+          Show saved collection
+        </button>
+      </div>
+      <div id="modalSavedCol" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close1">&times;</span>
+          <div id="modalinsidecontSavedCol"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
