@@ -1,0 +1,65 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid rgb(209 224 208);
+  border-radius: 30px;
+  margin:  2rem;
+  padding: 2rem;
+}
+
+.centrify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ 
+
+
+.modalinsidecontSavedCol {
+  max-height:100px;
+  max-width:100px;
+}
+
+.smlimg {
+  cursor: pointer; 
+  max-height: 10vw;
+}
+
+.btn {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 37px;
+  background: #8fdc94;
+  box-shadow:  16px 16px 32px #7abb7e,
+               -16px -16px 32px #a4fdaa;
+  cursor: pointer;
+}
+
+.svdb {
+border-radius: 37px;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid #d3d6d3;
+
+  background: #dde5dc;
+  box-shadow:  20px 20px 60px #bcc3bb,
+               -20px -20px 60px #fefffd;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .smlimg {
+    max-height: 60vw;
+    max-width: 60vw;
+ }
+
+ 
+
+ 
+}
